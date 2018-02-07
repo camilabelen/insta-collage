@@ -1,0 +1,62 @@
+body{
+  color: #FFF;
+  font-size: 1.8em;
+}
+
+.background{
+  height: 100vh;
+  background: linear-gradient(to top right, #DD8550, #ABC769, #6FC9AC);
+}
+
+#logoimg{
+  width: 100%;
+  margin: 30% 0 30% 0;
+}
+
+.user, .pass{
+  background-color: rgba(222, 213, 211, 0.2);
+  color: #FFF;
+  border: none;
+  border-radius: 0.5em;
+  padding: 1.8em;
+  margin-top: 3.5%;
+  font-size: 1.5em;
+}
+
+.user:focus{
+  outline: 0;
+}
+
+.signin{
+  width: 100%;
+  background: transparent;
+  border: 1px solid #FFF;
+  padding: 1em;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+  margin-top: 3.5%;
+}
+
+.help{
+  margin-top: 3%;
+  font-size: 1.4em;
+}
+
+.fb{
+  margin-top: 3%;
+  font-size: 1.5em;
+}
+
+.help a, .fb a, .signup a{
+  color: #FFF;
+}
+
+.signupCont{
+  
+}
+
+.signup{
+  margin-top: 45%;
+  background-color: rgba(222, 213, 211, 0.2);
+  font-size: 1.5em;
+}

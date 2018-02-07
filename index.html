@@ -3,23 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <title>Insta-collage</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="background">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <p>Idioma español (España)</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <img id="logoimg" src="assets/img/white_instagram.png" alt="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <input type="text" class="form-control user" placeholder="Username" aria-describedby="sizing-addon1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <input type="number" class="form-control pass" placeholder="Password" aria-describedby="sizing-addon1">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+           <button type="button" class="btn signin"><strong>Iniciar sesión</strong></button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 help text-center">
+          <p>Haz olvidado tu información de inicio de sesión? <a href="#"><strong>Obtén ayuda.</strong></a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2 fb text-center">
+          <span></span>
+          <a href="#"><strong>Iniciar sesión con Facebook</strong></a>
+        </div>
+      </div>
+    </div>
     <div class="row">
-      <div class="col-xs-12">
-        
-      </div>      
+      <div class="col-xs-12 text-center signup">
+        <p>No tienes una cuenta? <a href="#">Regístrate.</a></p>
+      </div>
     </div>    
   </div>
   <!-- scripts -->
-   <script
-  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script src="assets/js/app.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
