@@ -3,12 +3,6 @@
 }
 
 .img1, .img2{
-  width: 100%;
-  height: 20vh;
-  border: 1px solid #000;
-}
-
-.img3{
   height: 40vh;
   border: 1px solid #000;
   margin-bottom: 2%;
@@ -29,3 +23,15 @@
   font-size: 2.5em;
   margin-top: 4%;
 }
+
+.imgCont img {
+  width: 100%;
+  height: 13vh;
+  margin-top: 12%;
+}
+
+.img1 img, .img2 img{
+  height:40vh;
+  width: 100%;
+}
+
