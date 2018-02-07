@@ -27,7 +27,7 @@ body{
   outline: 0;
 }
 
-.signin{
+.signin, .registryBtn{
   width: 100%;
   background: transparent;
   border: 1px solid #FFF;

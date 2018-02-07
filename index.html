@@ -22,16 +22,16 @@
       </div>
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1">
-          <input type="text" class="form-control user" placeholder="Username" aria-describedby="sizing-addon1">
+          <input id="user" type="text" class="form-control user" placeholder="Username" aria-describedby="sizing-addon1">
         </div>
       </div>
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1">
-          <input type="number" class="form-control pass" placeholder="Password" aria-describedby="sizing-addon1">
+          <input id="pass" type="password" class="form-control pass" placeholder="Password" aria-describedby="sizing-addon1">
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-10 col-xs-offset-1">
+        <div class="col-xs-10 col-xs-offset-1 replaceable">
            <button type="button" class="btn signin"><strong>Iniciar sesión</strong></button>
         </div>
       </div>
@@ -49,12 +49,13 @@
     </div>
     <div class="row">
       <div class="col-xs-12 text-center signup">
-        <p>No tienes una cuenta? <a href="#">Regístrate.</a></p>
+        <p>No tienes una cuenta? <a id="registry" href="#">Regístrate.</a></p>
       </div>
     </div>    
   </div>
+
   <!-- scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
