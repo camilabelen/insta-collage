@@ -1,16 +1,31 @@
+*{
+  padding: 0;
+  margin:0;
+  overflow-x: hidden;
+
+}
+
 body{
+  background: linear-gradient(to top right, #DD8550, #ABC769, #6FC9AC);
+  width: 100%;
+  height: 100%;
   color: #FFF;
-  font-size: 1.8em;
+  font-size: 2.4vh;
+  overflow-y: hidden;
 }
 
 .background{
-  height: 100vh;
-  background: linear-gradient(to top right, #DD8550, #ABC769, #6FC9AC);
+  
+}
+
+.textclass{
+  .font-size: 3vw;
 }
 
 #logoimg{
-  width: 100%;
-  margin: 30% 0 30% 0;
+  width: 60vw;
+  margin-top: 10vw;
+  margin-bottom: 3vw;
 }
 
 .user, .pass{
@@ -18,9 +33,9 @@ body{
   color: #FFF;
   border: none;
   border-radius: 0.5em;
-  padding: 1.8em;
-  margin-top: 3.5%;
-  font-size: 1.5em;
+  padding: 3vw;
+  margin-top: 6%;
+  font-size: 3.2vw;
 }
 
 .user:focus{
@@ -28,35 +43,34 @@ body{
 }
 
 .signin, .registryBtn{
-  width: 100%;
+  width: 80%;
   background: transparent;
   border: 1px solid #FFF;
-  padding: 1em;
-  font-size: 1.5em;
+  padding: 2vw;
+  font-size: 3.6vw;
   border-radius: 0.5em;
   margin-top: 3.5%;
+  margin-bottom: 3.5%;
 }
 
 .help{
   margin-top: 3%;
-  font-size: 1.4em;
 }
 
 .fb{
   margin-top: 3%;
-  font-size: 1.5em;
 }
 
 .help a, .fb a, .signup a{
   color: #FFF;
 }
 
-.signupCont{
-  
-}
-
 .signup{
-  margin-top: 45%;
+  width: 100%;
+  margin-top: 10%;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
   background-color: rgba(222, 213, 211, 0.2);
-  font-size: 1.5em;
+  font-size: 3vh;
+  margin-bottom: 27.5%;
 }

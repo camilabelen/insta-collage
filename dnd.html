@@ -1,72 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Insta-collage</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/dnd.css">
-</head>
-<body>
-  <div class="container-fluid">
-    <div class="row collage">
-      <div class="col-xs-6 img1" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
-      <div class="col-xs-6 img2" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+  <head>
+    <meta charset="UTF-8">
+    <title>Insta-collage</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/dnd.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row division">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-16 text-center">
+          <img src="assets/img/instagramlogo.png" alt="logo_instagram">
+          <p>PHOTO BOOTH</p>
+        </div>
+      </div>
+      <div class="row collage">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center img1" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 img2" ondragover="permitirDrop(event)" ondrop="drop(event)"></div>
+      </div>
+      <div class="row imgCont center-block">
+        <div class="col-xs-3">
+          <img id="a" draggable="true" ondragstart="drag(event)" src="assets/img/img5.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+          <img id="b" draggable="true" ondragstart="drag(event)" src="assets/img/img2.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+          <img id="c" draggable="true" ondragstart="drag(event)" src="assets/img/img11.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+          <img id="d" draggable="true" ondragstart="drag(event)" src="assets/img/img3.jpg" alt="">
+        </div>
+      </div>
+      <div class="row imgCont center-block">
+        <div class="col-xs-3">
+          <img id="e" draggable="true" ondragstart="drag(event)" src="assets/img/img1.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+          <img id="f" draggable="true" ondragstart="drag(event)" src="assets/img/img6.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+          <img id="g" draggable="true" ondragstart="drag(event)" src="assets/img/img4.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+          <img id="h" draggable="true" ondragstart="drag(event)" src="assets/img/img8.jpg" alt="">
+        </div>
+      </div>
+      <div class="row imgCont center-block">
+        <div id="i" class="col-xs-3">
+          <img draggable="true" ondragstart="drag(event)" src="assets/img/img9.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+          <img id="j" draggable="true" ondragstart="drag(event)" src="assets/img/img10.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+          <img id="k" draggable="true" ondragstart="drag(event)" src="assets/img/img7.jpg" alt="">
+        </div>
+        <div class="col-xs-3">
+          <img id="m" draggable="true" ondragstart="drag(event)" src="assets/img/img12.jpg" alt="">
+        </div>
+      </div>
     </div>
-    <div class="row division">
-      <div class="col-xs-2 col-xs-offset-3  text-center">
-        <img src="assets/img/instagramlogo.png" alt="logo_instagram">        
-      </div>
-      <div class="col-xs-4 text-left">
-        <p>PHOTO BOOTH</p>
-      </div>      
-    </div>
-    <div class="row imgCont">
-      <div class="col-xs-3">
-        <img id="a" draggable="true" ondragstart="drag(event)" src="assets/img/img1.jpg" alt="">
-      </div>
-      <div class="col-xs-3">
-        <img id="b" draggable="true" ondragstart="drag(event)" src="assets/img/img2.jpg" alt="">
-      </div>
-      <div class="col-xs-3">
-        <img id="c" draggable="true" ondragstart="drag(event)" src="assets/img/img3.jpg" alt="">
-      </div>
-      <div class="col-xs-3">
-        <img id="d" draggable="true" ondragstart="drag(event)" src="assets/img/img4.jpg" alt="">
-      </div>
-    </div>
-    <div class="row imgCont">
-      <div class="col-xs-3">
-        <img id="e" draggable="true" ondragstart="drag(event)" src="assets/img/img5.jpg" alt="">
-      </div>
-      <div class="col-xs-3">
-        <img id="f" draggable="true" ondragstart="drag(event)" src="assets/img/img6.jpg" alt="">
-      </div>
-      <div class="col-xs-3">
-        <img id="g" draggable="true" ondragstart="drag(event)" src="assets/img/img7.jpg" alt="">
-      </div>
-      <div class="col-xs-3">
-        <img id="h" draggable="true" ondragstart="drag(event)" src="assets/img/img8.jpg" alt="">
-      </div>
-    </div>
-    <div class="row imgCont">
-      <div id="i" class="col-xs-3">
-        <img draggable="true" ondragstart="drag(event)" src="assets/img/img9.jpg" alt="">
-      </div>
-      <div class="col-xs-3">
-        <img id="j" draggable="true" ondragstart="drag(event)" src="assets/img/img10.jpg" alt="">
-      </div>
-      <div class="col-xs-3">
-        <img id="k" draggable="true" ondragstart="drag(event)" src="assets/img/img11.jpg" alt="">
-      </div>
-      <div class="col-xs-3">
-        <img id="m" draggable="true" ondragstart="drag(event)" src="assets/img/img12.jpg" alt="">
-      </div>
-    </div>
-  </div>
-  <!-- script -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="assets/js/dnd.js"></script>
-</body>
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/dnd.js"></script>
+  </body>
 </html>
