@@ -3,31 +3,39 @@
 }
 
 .img1, .img2{
-  height: 40vh;
-  border: 1px solid #000;
-  margin-bottom: 2%;
+  height: 41.3vh;
+  padding: 0.2em;
+  border: 0.5px solid #e61a5bd4;
+  margin-bottom: 1.5vh;
+  margin-top: 1.4vh;
 }
 
 .division{
-  height: 8vh;
+  height: 10vh;
+  margin-top: 1vh;
   background-color: #343C4F;
+  line-height: 0;
 }
 
+
 .division img{
-  height: 5em;
-  margin: 0;
+  width: 3.5em;
+  margin-top: -15px;
+  display: inline-block;
 }
 
 .division p{
   color: #FFF;
   font-size: 2.5em;
   margin-top: 4%;
+  display: inline;
+  line-height: 1.7;
 }
 
 .imgCont img {
-  width: 100%;
-  height: 13vh;
-  margin-top: 12%;
+  width: 80%;
+  margin-top: 1.3vh;
+  margin-bottom: 1.3vh;
 }
 
 .img1 img, .img2 img{
